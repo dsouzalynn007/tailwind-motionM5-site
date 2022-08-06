@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle1{
+  animation: spin1 3s infinite;
+}
+
+@keyframes spin1 {
+  0%, 100% {
+    transform: translateX(15%);
+    animation-timing-function: ease;
+  }
+  50% {
+    transform: translateX(75%);
+    animation-timing-function: ease;
+  }
+}
+
+.circle2{
+  animation: spin2 3s infinite;
+}
+
+@keyframes spin2 {
+  0%, 100% {
+    transform: translateX(-15%);
+    animation-timing-function: ease;
+  }
+  50% {
+    transform: translateX(-75%);
+    animation-timing-function: ease;
+  }
+}

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- 
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+     -->
+
+<section>
+    <article class="flex h-[100px] items-center">
+        <aside class="basis-[39%] pl-[80px]">
+            <h1 class="text-[20px] font-semibold">MotionM5</h1>
+        </aside>
+        <aside class="basis-[37%]">
+            <ul class="flex  justify-evenly">
+                <li class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">Home</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[25%] top-0"></div>
+                </li>
+                <li class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">About Us</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[25%] top-0"></div>
+                </li>
+                <li class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">Services</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[25%] top-0"></div>
+                </li>
+                <li class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">Contact Us</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[25%] top-0"></div>
+                </li>
+                <li class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">News</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[25%] top-0"></div>
+                </li>
+            </ul>
+        </aside>
+        <aside class="basis-[24%]">
+            <ul class="flex gap-[30px] pl-[10px] text-[24px]">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+        </aside>
+    </article>
+</section>
+<section>
+    <article class="bg-gradient-to-r from-slate-200 to-slate-200 opacity-80">
+        <main class="p-[80px] h-[120vh] w-full bg-[url('../images/motion5.jpg')] bg-cover">
+            <aside class="flex w-[200px]">
+                <div class="circle1 h-[50px] w-[50px] rounded-full bg-black"></div>
+                <div class="circle2 h-[50px] w-[50px] rounded-full border border-black"></div>
+            </aside>
+            <p class="text-[25px]">2025-21</p>
+            <p class="text-[20px]">THE BEST SOLUTIONS FOR OUR CLIENTS</p>
+            <p class="text-[80px] w-[70vw] leading-[80px]">We create exclusive videos using modern technologies and extensive features.</p>
+        </main>
+    </article>
+</section>
+<section class="p-[60px]">
+    <article class="flex">
+        <aside class="basis-[50%] flex h-[30vh] flex-col justify-evenly">
+            <p>BRAND STUDIO</p>
+            <h1 class="text-[60px] leading-[60px]">All the details fall into place</h1>
+        </aside>
+        <aside class="basis-[50%] flex h-[40vh] flex-col justify-evenly">
+            <p class="text-[20px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, laboriosam. Enim, eligendi? Deleniti, sapiente nam enim obcaecati minus nesciunt aliquam voluptates odit, iure officiis, sequi qui? Mollitia suscipit illo ratione nulla cum, nam ab fugiat!
+            </p>
+            <main class="text-[23px] underline underline-offset-4 hover:no-underline relative">
+                <a href="#">Get started</a>
+                <div class="h-[38px] w-[38px] rounded-full opacity-50 hover:bg-black absolute left-[7%] top-0"></div>
+            </main>
+        </aside>
+    </article>
+</section>
+<section class="p-[60px] h-[150vh]">
+    <article class="flex justify-start">
+        <aside class="pt-[100px] border border-l-slate-400 border-b-0 border-t-0">
+            <div class="flex flex-col h-[80vh] justify-between p-[30px]">
+                <figure class="flex relative">
+                    <img src="../images/mbr-2.1.jpeg" alt="" class="w-[250px] h-[250px]">
+                    <p class="transform rotate-90 absolute right-[10px] top-[35px]">PRODUCT 1</p>
+                </figure>
+                <main>
+                    <h1 class="text-[35px] font-semibold mb-[20px]">Slow-motion & accelerated shooting</h1>
+                    <p class="mb-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, incidunt iure hic, quisquam nihil ut quidem aperiam.</p>
+                    <main class="underline underline-offset-4 hover:no-underline relative">
+                        <a href="#">View more</a>
+                        <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[7%] top-0"></div>
+                    </main>
+                </main>
+            </div>
+        </aside>
+        <aside class="pt-[0px] border border-l-slate-400 border-r-slate-400 border-b-0 border-t-0">
+            <div class="flex flex-col h-[90vh] justify-between p-[30px]">
+                <figure class="flex relative">
+                    <img src="../images/mbr-2.2.jpeg" alt="" class="w-[250px] h-[250px]">
+                    <p class="transform rotate-90 absolute right-[10px] top-[35px]">PRODUCT 2</p>
+                </figure>
+                <main>
+                    <h1 class="text-[35px] font-semibold mb-[20px]">Shooting in polarized light</h1>
+                    <p class="mb-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, incidunt iure hic, quisquam nihil ut quidem aperiam.</p>
+                    <main class="underline underline-offset-4 hover:no-underline relative">
+                        <a href="#">View more</a>
+                        <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[7%] top-0"></div>
+                    </main>
+                </main>
+            </div>
+        </aside>
+        <aside class="pt-[200px] border border-r-slate-400 border-b-0 border-t-0">
+            <div class="flex flex-col h-[100vh] justify-between p-[30px]">
+                <figure class="flex relative ">
+                    <img src="../images/mbr-2.3.jpeg" alt="" class="w-[250px] h-[250px]">
+                    <p class="transform rotate-90 absolute right-[10px] top-[35px]">PRODUCT 3</p>
+                </figure>
+                <main>
+                    <h1 class="text-[35px] font-semibold mb-[20px]">Micro & macro photography</h1>
+                    <p class="mb-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, incidunt iure hic, quisquam nihil ut quidem aperiam.</p>
+                    <main class="underline underline-offset-4 hover:no-underline relative">
+                        <a href="#">View more</a>
+                        <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[7%] top-0"></div>
+                    </main>
+                </main>
+            </div>
+        </aside>
+    </article>
+</section>
+<section>
+    <article class="flex mt-[100px] p-[30px]">
+        <aside class="basis-[45%]">
+            <figure>
+                <img class="h-[100vh]" src="../images/mbr-about.jpeg" alt="">
+            </figure>
+        </aside>
+        <aside class="basis-[45%] pl-[100px] top-[-20px] relative">
+            <div>
+                <header>
+                    <div class="flex justify-center items-center h-[100px] w-[100px] border border-black">
+                        <div class="h-[80px] w-[80px] bg-fuchsia-700 opacity-80 transition-all ease-in-out hover:h-[100px] hover:w-[100px] hover:rotate-45"></div>
+                    </div>
+                </header>
+                <main class="flex flex-col justify-evenly h-[600px]">
+                    <h1 class="text-[60px] leading-[60px]">About our video recording studio</h1>
+                    <p class="text-[18px]">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Animi dolores porro nobis minus labore id praesentium repudiandae reiciendis, libero natus perspiciatis quidem harum, nulla quod velit tempore dicta, nam delectus.</p>
+                    <p class="text-[18px]">Pariatur alias, commodi quasi accusantium laudantium similique a, rerum, beatae optio nemo dicta corporis dolores tempora dolor cum ex atque recusandae. Eveniet nulla, placeat minima hic. Incidunt cum maiores sint perferendis aut reiciendis, possimus necessitatibus, tenetur recusandae facilis nisi! Reprehenderit, illum nisi.</p>
+                </main>
+            </div>
+        </aside>
+    </article>
+</section>
+<section>
+    <article>
+        <header class="ml-[10%] mb-[5%]">
+            <p>THE BEST SOLUTIONS FOR OUR CLIENTS</p>
+        </header>
+        <main class="flex ml-[10%] mr-[20%] pt-[5%] pb-[5%] border-t-stone-400 border-t-[1px]border-dotted"">
+            <aside class="basis-[20%] flex relative">
+                <div class="circle1 h-[75px] w-[75px] rounded-full border border-black absolute top-0 left-0 z-10"></div>
+                <div class="circle2 h-[75px] w-[75px] rounded-full bg-red-600 absolute top-0 left-[75px] z-0"></div>
+            </aside>
+            <aside class="basis-[35%]">
+                <h1 class="text-[40px]">Promotional video</h1>
+            </aside>
+            <aside class="basis-[50%]">
+                <p class="mb-[10px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ratione totam voluptatibus modi repudiandae dolorum iure quia ut sequi tenetur assumenda velit minus, saepe dicta debitis quibusdam excepturi ducimus fugiat.</p>
+                <main class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">View more</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[7%] top-0"></div>
+                </main>
+            </aside>
+        </main>
+        <main class="flex ml-[15%] mr-[15%] pt-[5%] pb-[5%] border-t-stone-400 border-t-[1px] border-dotted"">
+            <aside class="basis-[20%] flex relative">
+                <div class="circle1 h-[75px] w-[75px] rounded-full border border-black absolute top-0 left-0 z-10"></div>
+                <div class="circle2 h-[75px] w-[75px] rounded-full bg-green-400 absolute top-0 left-[75px] z-0"></div>
+            </aside>
+            <aside class="basis-[35%]">
+                <h1 class="text-[40px]">Corporate film</h1>
+            </aside>
+            <aside class="basis-[45%]">
+                <p class="mb-[10px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ratione totam voluptatibus modi repudiandae dolorum iure quia ut sequi tenetur assumenda velit minus, saepe dicta debitis quibusdam excepturi ducimus fugiat.</p>
+                <main class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">View more</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[7%] top-0"></div>
+                </main>
+            </aside>
+        </main>
+        <main class="flex ml-[10%] mr-[15%] pt-[5%] pb-[5%] border-t-stone-400 border-t-[1px] border-dotted">
+            <aside class="basis-[20%] flex relative">
+                <div class="circle1 h-[75px] w-[75px] rounded-full border border-black absolute top-0 left-0 z-10"></div>
+                <div class="circle2 h-[75px] w-[75px] rounded-full bg-purple-600 absolute top-0 left-[75px] z-0"></div>
+            </aside>
+            <aside class="basis-[35%]">
+                <h1 class="text-[40px]">Aerial photography</h1>
+            </aside>
+            <aside class="basis-[45%]">
+                <p class="mb-[10px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ratione totam voluptatibus modi repudiandae dolorum iure quia ut sequi tenetur assumenda velit minus, saepe dicta debitis quibusdam excepturi ducimus fugiat.</p>
+                <main class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">View more</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[7%] top-0"></div>
+                </main>
+            </aside>
+        </main>
+        <main class="flex ml-[5%] mr-[20%] pt-[5%] pb-[5%] border-t-stone-400 border-t-[1px] border-dotted"">
+            <aside class="basis-[20%] flex relative">
+                <div class="circle1 h-[75px] w-[75px] rounded-full border border-black absolute top-0 left-0 z-10"></div>
+                <div class="circle2 h-[75px] w-[75px] rounded-full bg-sky-400 absolute top-0 left-[75px] z-0"></div>
+            </aside>
+            <aside class="basis-[35%]">
+                <h1 class="text-[40px]">Music video</h1>
+            </aside>
+            <aside class="basis-[55%]">
+                <p class="mb-[10px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ratione totam voluptatibus modi repudiandae dolorum iure quia ut sequi tenetur assumenda velit minus, saepe dicta debitis quibusdam excepturi ducimus fugiat.</p>
+                <main class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">View more</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[7%] top-0"></div>
+                </main>
+            </aside>
+        </main>
+    </article>
+</section>
+<section class="flex justify-center relative mb-[180px]">
+    <article class="w-[95%]">
+        <h1 class="text-[60px]">View in Action</h1>
+        <p class="transform rotate-90 absolute left-[-27px] top-[125px]">OUR VIDEOS</p>
+        <div class="h-[300px] w-[300px] bg-red-600 absolute bottom-[-20px] right-[10px]"></div>
+        <figure class="relative">
+            <img class="object-cover" src="../images/mbr-video.jpg" alt="">
+            <button class="flex items-center justify-center absolute top-[37%] right-[42%] text-white h-[200px] w-[200px] rounded-full bg-cyan-700
+            hover:scale-110 transition-all">
+                <a class="text-[20px]" href="">Watch Videos</a>
+            </button>
+        </figure>
+    </article>
+</section>
+<section class="border-t-[1px] border-gray-400 m-auto pt-[80px] w-[90%] ">
+    <article class="flex">
+        <header class="basis-[45%]">
+            <p>THE TEAM —</p>
+            <h1 class="text-[60px]">Professionals</h1>
+        </header>
+        <main class="basis-[55%] flex justify-between">
+            <aside>
+                <ul class="leading-10">
+                    <li>videographer</li>
+                    <li>editor</li>
+                    <li>sound engineer</li>
+                    <li>decorator</li>
+                    <li>screenwriter</li>
+                    <li>illustration & animation</li>
+                    <li>and ect.</li>
+                </ul>
+            </aside>
+            <aside>
+                <ul class="leading-10 text-[20px] text-right">
+                    <li>David Black</li>
+                    <li>Neil Brown</li>
+                    <li>David Black</li>
+                    <li>Kate Green</li>
+                    <li>Matt Grey</li>
+                    <li>Chris Lime</li>
+                    <li>...</li>
+                </ul>
+            </aside>
+        </main>
+    </article>
+</section>
+<section>
+    <article>
+        <header>
+            <h1 class="text-[60px] w-[50%] leading-[60px] m-auto pt-[150px] pb-[100px]">Want to work with us? Leave us a message!</h1>
+        </header>
+        <main class="flex h-[140vh] w-[95%] m-auto">
+            <aside class="border-x-[1px] border-gray-400 p-[30px]">
+                <header class="relative">
+                    <div class="flex justify-center items-center ml-[50px] h-[100px] w-[100px] border border-black">
+                        <div class="h-[100px] w-[100px] bg-red-700 opacity-80 transition-all ease-in-out absolute left-0 top-[-50px] hover:rotate-45 hover:left-[50px] hover:top-0"></div>
+                    </div>
+                </header>
+                <main>
+                    <h1 class="text-[40px] pt-[30px]">Contact with us</h1>
+                    <p class="pt-[20px] pb-[20px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, consequatur veniam pariatur itaque alias mollitia.</p>
+                    <main class="underline underline-offset-4 hover:no-underline relative">
+                        <a href="#">mobirise@company.com</a>
+                        <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[19%] top-0"></div>
+                    </main>
+                </main>
+                <footer>
+                    <form class="flex flex-col w-[85%] gap-[15px] pt-[40px]" action="">
+                        <input class="p-[10px] border-[1px] border-gray-300" type="text" name="" id="" placeholder="Name">
+                        <input class="p-[10px] border-[1px] border-gray-300" type="email" name="" id="" placeholder="Email">
+                        <input class="p-[10px] border-[1px] border-gray-300" type="tel" name="" id="" placeholder="Phone">
+                        <input class="p-[10px_0px_60px_10px] border-[1px] border-gray-300" type="text" name="" id="" placeholder="Message">
+                        <button class="ml-[100px] bg-black text-[22px] p-[5px] text-white hover:cursor-pointer">Send Message</button>
+                    </form>
+                </footer>
+            </aside>
+            <aside class="mt-[200px] p-[30px]">
+                <header class="relative">
+                    <div class="flex justify-center items-center h-[100px] w-[100px] border rotate-45 border-black"></div>
+                    <div class="h-[100px] w-[100px] bg-green-400 opacity-80 transition-all ease-in-out absolute left-[30px] bottom-[-30px] hover:h-[80px] hover:w-[80px] hover:-rotate-45 hover:left-[55px] hover:bottom-[10px]"></div>
+                </header>
+                <main>
+                    <h1 class="text-[40px] pt-[30px]">Join our team</h1>
+                    <p class="pt-[20px] pb-[20px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, consequatur veniam pariatur itaque alias mollitia.</p>
+                    <main class="underline underline-offset-4 hover:no-underline relative">
+                        <a href="#">mobirise@team.com</a>
+                        <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[17%] top-0"></div>
+                    </main>
+                </main>
+            </aside>
+            <aside class="border-x-[1px] border-gray-400 p-[100px_30px]">
+                <header>
+                    <div class="flex justify-center items-center h-[100px] w-[100px] border border-black">
+                        <div class="h-[80px] w-[80px] bg-fuchsia-700 opacity-80 transition-all ease-in-out hover:h-[100px] hover:w-[100px] hover:rotate-45"></div>
+                    </div>
+                </header>
+                <main>
+                    <h1 class="text-[40px] pt-[30px]">Something else</h1>
+                    <p class="pt-[20px] pb-[20px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, consequatur veniam pariatur itaque alias mollitia.</p>
+                    <main class="underline underline-offset-4 hover:no-underline relative">
+                        <a href="#">mobirise@company.com</a>
+                        <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[19%] top-0"></div>
+                    </main>
+                    <p class="mt-[20px]">350 5th Ave</p>
+                    <p>New York, NY 10118, USA</p>
+                    <main class="mt-[20px] underline underline-offset-4 hover:no-underline relative">
+                        <p>Call us on <a href="#">+1 (123) 456 78 90</a></p>
+                        <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[25%] top-0"></div>
+                    </main>
+                </main>
+            </aside>
+        </main>
+    </article>
+</section>
+
+
+<section id="News_section" class="mt-[100px] w-full h-[500px] ">
+    <h1 class="text-center text-[50px] font-medium ">News</h1>
+    <article class="w-[80%] m-auto flex justify-between  items-center h-[400px]">
+        <aside class="basis-[33.33%] flex justify-center relative hover:scale-[1.09] transition-all ">
+            <img src="../images/mbr-news-1.jpg" alt="" srcset="" class="h-[250px] w-[280px]">
+            <div class="absolute top-[168px]">
+                <h1 class="text-[20px] text-white font-semibold translate-y-[-15px]">Artistic creativity</h1>
+                <p class="w-[230px] text-white translate-y-[-15px]">Quas nemo unde aperiam molestias optio repellendus. <span class="ml-[8px]   text-white">#1</span></p>
+            </div>
+        </aside>
+        <aside class="basis-[33.33%]  flex justify-center relative hover:scale-[1.09] transition-all ">
+            <img src="../images/mbr-news-2.jpg" alt="" srcset="" class="h-[250px] w-[280px] bg-transparent opacity-90">
+            <div  class="absolute top-[168px]">
+                    <h1 class="text-[20px] text-white font-semibold translate-y-[-15px]">Concept art</h1>
+                    <p class="w-[230px] text-white translate-y-[-15px]">Incidunt illum quidem expedita, quod ipsa at. <span class="ml-[80px]">#2</span> </p>
+                </div>
+        </aside>
+        <aside class="basis-[33.33%] flex justify-center relative hover:scale-[1.09] transition-all ">
+        <img src="../images/mbr-news-3.jpg" alt="" srcset="" class="h-[250px] w-[280px] ">
+            <div class="absolute top-[150px]">
+                <h1 class="text-[20px] text-white font-semibold translate-y-[-30px]">Design agency</h1>
+                <p class="w-[230px] text-white translate-y-[-30px]">Praesentium maiores ratione nulla minima enim aperiam libero dolorum quae ullam. <span class="text-right">#3</span> </p>
+            </div>
+        </aside>
+    </article>
+</section>
+
+<section class="w-full h-[300px] ">
+    <article class="w-[50%] m-auto flex flex-col justify-around gap-[20px] ">
+        <aside class="flex  gap-[20px] justify-between border-b-[1px] border-dotted border-gray-600 p-[8px]">
+            <p>22.06.2025</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>#1</p>
+        </aside>
+        <aside class="flex  gap-[20px] justify-between border-b-[1px] border-dotted border-gray-600 p-[8px]">
+            <p>22.06.2025</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>#2</p>
+        </aside>
+        <aside class="flex  gap-[20px] justify-between border-b-[1px] border-dotted border-gray-600 p-[8px]">
+            <p>22.06.2025</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>#3</p>
+        </aside>
+        <aside class="flex  gap-[20px] justify-between">
+            <p>22.06.2025</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>#4</p>
+        </aside>
+    </article>
+</section>
+
+<section class="w-full h-[150px] " >
+    <h1 class="ml-[80px] h-[160px]">USEFUL LINKS</h1>
+    <article class="w-[85%] h-[80%] m-auto flex translate-y-[-180px]">
+        <aside class="basis-[50%] flex justify-start mt-[20px]">
+            <ul class="list-disc flex justify-start items-center gap-[20px] text-[18px]" id="navList">
+                <li class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">About</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[25%] top-0"></div>
+                </li>
+                <li class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">Services</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[25%] top-0"></div>
+                </li>
+                <li class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">Contact Us</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[25%] top-0"></div>
+                </li>
+                <li class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">News</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[25%] top-0"></div>
+                </li>
+            </ul>
+        </aside>
+    <aside class="basis-[30%] relative top-[30px] left-[150px]">
+        <h1 class="ml-[245px]">LET'S TALK</h1>
+        <ul class="list-disc w-full flex justify-between items-center mt-[10px] text-[18px]" id="navList">
+            <li class="underline underline-offset-4 hover:no-underline relative">
+                <a href="#">1234 567 890</a>
+                <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[35%] top-0"></div>
+            </li>
+            <li class="underline underline-offset-4 hover:no-underline relative">
+                <a href="#">mobirise@company.com</a>
+                <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-black absolute left-[45%] top-0"></div>
+            </li>
+        </ul>
+    </aside>
+    </article>
+</section>
+
+<section class="w-full h-[80px] bg-slate-800">
+    <article class="w-[80%] h-full m-auto flex justify-between items-center">
+        <aside class="text-[15px] text-white font-medium">© Copyright 2025 Mobirise - All Rights Reserved</aside>
+        <aside>
+            <ul class="w-full flex justify-between items-center mt-[10px] gap-[15px] text-[15px] text-white font-medium" id="navList">
+                <li class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">Terms & Condition</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-white absolute left-[35%] top-0"></div>
+                </li>
+                <li class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">Privacy policy</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-white absolute left-[25%] top-0"></div>
+                </li>
+                <li class="underline underline-offset-4 hover:no-underline relative">
+                    <a href="#">FAQ</a>
+                    <div class="h-[28px] w-[28px] rounded-full opacity-50 hover:bg-white absolute left-[5%] top-0"></div>
+                </li>
+            </ul>
+        </aside>
+    </article>
+</section>
+
+</body>
+</html>
